@@ -113,6 +113,10 @@ PRODUCT_PACKAGES += \
     AwakenWallpaperStub \
     RepainterServicePriv
 
+# Themes
+PRODUCT_PACKAGES += \
+    AwakenBlackTheme
+
 # Charger
 ifeq ($(USE_PIXEL_CHARGER),true)
 PRODUCT_PACKAGES += \
