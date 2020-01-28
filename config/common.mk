@@ -101,6 +101,9 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 # Disable vendor restrictions
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
+# Skip boot JAR checks.
+SKIP_BOOT_JARS_CHECK := true
+
 # Bootanimation
 $(call inherit-product, vendor/awaken/config/bootanimation.mk)
 
