@@ -120,6 +120,10 @@ PRODUCT_PACKAGES += \
     AwakenWallpaperStub \
     RepainterServicePriv
 
+# Hide nav Overlays
+PRODUCT_PACKAGES += \
+    NavigationBarNoHintOverlay
+
 # TextClassifier
 PRODUCT_PACKAGES += \
     libtextclassifier_annotator_en_model \
