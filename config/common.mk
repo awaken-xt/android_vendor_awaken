@@ -60,6 +60,10 @@ endif
 PRODUCT_COPY_FILES += \
     vendor/awaken/prebuilt/common/etc/init/init.awaken-system_ext.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.awaken-system_ext.rc
 
+# Display
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    debug.sf.frame_rate_multiple_threshold=60
+
 # Disable blur on app-launch
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.launcher.blur.appLaunch=0
