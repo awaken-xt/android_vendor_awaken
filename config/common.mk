@@ -144,6 +144,9 @@ PRODUCT_PACKAGES += \
     libtextclassifier_actions_suggestions_universal_model \
     libtextclassifier_lang_id_model
 
+#Themes OVerlay
+include packages/overlays/Themes/themes.mk
+
 # Charger
 ifeq ($(USE_PIXEL_CHARGER),true)
 PRODUCT_PACKAGES += \
