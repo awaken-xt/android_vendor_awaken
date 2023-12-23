@@ -15,8 +15,8 @@
 # limitations under the License.
 
 # Versioning System
-AWAKEN_CODENAME := ursa
-AWAKEN_NUM_VER := 4.1
+AWAKEN_CODENAME := xt-unex
+AWAKEN_NUM_VER := 1.0
 
 TARGET_PRODUCT_SHORT := $(subst awaken_,,$(AWAKEN_BUILD_TYPE))
 
