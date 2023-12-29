@@ -6,12 +6,12 @@
 <resources>
     <!-- Build properties from a GMS certified device against current platform SPL level -->
     <string-array name="config_certifiedBuildProperties" translatable="false">
-        <item>PRODUCT:S11S</item>
-        <item>DEVICE:GIONEE_SW17G12</item>
-        <item>MANUFACTURER:GIONEE</item>
-        <item>BRAND:GIONEE</item>
-        <item>MODEL:GIONEE S11S</item>
-        <item>FINGERPRINT:GIONEE/S11S/GIONEE_SW17G12:7.1.1/N6F26Q/1509594663:user/release-keys</item>
-        <item>VERSION.SECURITY_PATCH:2017-11-05</item>
+        <item>PRODUCT:YUREKA</item>
+        <item>DEVICE:YUREKA</item>
+        <item>MANUFACTURER:YU</item>
+        <item>BRAND:YU nitrogen</item>
+        <item>MODEL:YU5510</item>
+        <item>FINGERPRINT:YU/YUREKA/YUREKA:5.1.1/LMY49J/YOG4PAS8A4:user/release-keys</item>
+        <item>VERSION.SECURITY_PATCH:2015-11-01</item>
     </string-array>
 </resources>
