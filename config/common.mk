@@ -135,8 +135,7 @@ PRODUCT_PACKAGES += \
 
 # Awaken packages
 PRODUCT_PACKAGES += \
-    AwakenWallpaperStub \
-    RepainterServicePriv
+    AwakenWallpaperStub
 
 # Hide nav Overlays
 PRODUCT_PACKAGES += \
